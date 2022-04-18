@@ -1,23 +1,28 @@
-Welcome to Lumache's documentation!
+Welcome to the AetherAerospace documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**AetherAerospace** is the next step in our Last Year startet project.
+The purpose of the documentation is to deliver *simple* and *easy to dys* Instructions.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`code` section for questions about the backend
+For frontend information check out the :doc:`design` section
 
-.. note::
+
+Note
+--------
 
    This project is under active development.
    Lumache has its documentation hosted on Read the Docs.
+
+
+
 
 Contents
 --------
 
 .. toctree::
-
-   usage
-   api
+   code
+   design
+   function
+   idea
+   usage   
