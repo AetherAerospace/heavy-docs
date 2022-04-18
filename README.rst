@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
-
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+<div align="center">
+    <hr>
+    <h1>Aether Aerospace Engineering</h1>
+    <p>Documentation<p>
+    <hr>
+</div>
