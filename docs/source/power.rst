@@ -1,0 +1,8 @@
+Power.:
+=======
+
+Perserverance.:
+^^^^^^^^^^^^^^^
+
+The Injector.:
+^^^^^^^^^^^^^^

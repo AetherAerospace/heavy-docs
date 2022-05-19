@@ -1,28 +1,60 @@
-Welcome to the AetherAerospace documentation!
-===================================
+.. image:: /image/logoNewJapaneseText.png
+   :width: 600px
+   :height: 580px
+   :scale: 100 %
 
-**AetherAerospace** is the next step in our Last Year startet project.
-The purpose of the documentation is to deliver *simple* and *easy to dys* Instructions.
-
-Check out the :doc:`code` section for questions about the backend
-For frontend information check out the :doc:`design` section
-
-
-Note
---------
-
-   This project is under active development.
-   Lumache has its documentation hosted on Read the Docs.
+Aether Aerospace Engineering's documentation!
+=============================================
 
 
 
+Project Information.::
 
-Contents
---------
+      Team Members:
+      print """
+            Slama Felix
+            Teppan Fabian
+            Fazlic Malik
+            """
+
+      Documentation Creator
+            "Fazlic Malik; created: 18.04.2022"
+
+      Client
+            "Prof. Mikl Peter"
+
+      Project Supervisor
+            "Prof. Mikl Peter"
+
+
+Inhaltsverzeichnis
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-   code
+   :maxdepth: 3
+   :numbered:
+   :caption: Project Content:
+
+   projektplan
+   kommunikation
    design
-   function
-   idea
-   usage   
+   design2
+   software
+   github
+   hardware
+   power
+   flowchart
+   resumee
+   ausblick
+   literaturverzeichnis
+   license
+   
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
