@@ -12,7 +12,7 @@ Project Information.::
 
       Team Members:
       print """
-            Slama Felix
+            **Slama Felix**
             Teppan Fabian
             Fazlic Malik
             """
@@ -39,6 +39,7 @@ Inhaltsverzeichnis
    kommunikation
    design
    design2
+   design3
    software
    github
    hardware
