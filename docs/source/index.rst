@@ -1,10 +1,10 @@
 .. image:: /image/logoNewJapaneseText.png
-   :width: 600px
-   :height: 580px
+   :width: 800px
+   :height: 780px
    :scale: 100 %
 
-Aether Aerospace Engineering's documentation!
-=============================================
+**Aether Aerospace Engineering's documentation!**
+=================================================
 
 
 
@@ -48,13 +48,6 @@ Inhaltsverzeichnis
    ausblick
    literaturverzeichnis
    license
-   
+   blender
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
