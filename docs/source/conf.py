@@ -19,10 +19,10 @@
 
 project = 'Aether Aerospace Engineering'
 copyright = '2022, Aether Aerospace Engineering'
-author = 'Malik Fazlic'
+author = 'Malik Fazlic, Fabian Teppan, Felix Slama'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '3.0 HEAVY'
 
 # -- General configuration ---------------------------------------------------
 
