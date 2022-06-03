@@ -4,17 +4,14 @@ Software
 Sprachen:
 ^^^^^^^^^
 
-    Diese Sprachen wurden verwendet, um unsere Software zu realsieren
+    Verwendete Sprachen:
+        - C++ bzw. Arduino-C
+        - JavaScript
+        - Bash
+        - CSS
+        - HTML
 
-.. list-table::
-
-   * - .. figure:: /image/c++.png
-
-     - .. figure:: /image/bash.png
-
-   * - .. figure:: /image/css.png
-
-     - .. figure:: /image/js.png
+    Der Großteil des Codes ist in C++ geschrieben. Die anderen Sprachen dienen zur Ergänzung in manchen Teilbereichen des Hauptcodes.
 
 Software Unterteilung:
 ^^^^^^^^^^^^^^^^^^^^^^

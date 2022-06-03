@@ -1,26 +1,20 @@
 .. image:: /image/logoNewJapaneseText.png
     :scale: 100%
 
-**Aether Aerospace Engineering's documentation!**
-=================================================
+**Aether Aerospace Engineering**
+================================
 
-Project Information.::
+Teammitglieder
+      - Slama Felix
+      - Teppan Fabian
+      - Fazlic Malik
 
-      Team Members:
-      print """
-            **Slama Felix**
-            Teppan Fabian
-            Fazlic Malik
-            """
+Projektbetreuer
+      - Prof. Mikl Peter
+      - Prof. Mairer Herwig
 
-      Documentation Creator
-            "Fazlic Malik; created: 18.04.2022"
-
-      Client
-            "Prof. Mikl Peter"
-
-      Project Supervisor
-            "Prof. Mikl Peter"
+Supporters
+      - Extrudr | FD3D GmbH
 
 Dokumentation
 -------------
@@ -30,14 +24,13 @@ Dokumentation
    :numbered:
 
    projektplan
-   kommunikation
    design1
    design2
    design3
    software
    hardware
+   kommunikation
    flowchart
    resumee
    ausblick
-   literaturverzeichnis
    license
