@@ -22,10 +22,12 @@ Project Information.::
       Project Supervisor
             "Prof. Mikl Peter"
 
+Dokumentation
+-------------
+
 .. toctree::
    :maxdepth: 3
    :numbered:
-   :caption: Documentation:
 
    projektplan
    kommunikation
