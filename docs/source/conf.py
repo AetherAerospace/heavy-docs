@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Aether Aerospace Engineering'
-copyright = '2022, Mercyless'
-author = 'Mercyless'
+copyright = '2022, Aether Aerospace Engineering'
+author = 'Malik Fazlic'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '1.0'
 
 # -- General configuration ---------------------------------------------------
 
@@ -48,7 +48,6 @@ exclude_patterns = []
 #
 import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme'
-# html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # This option is `True` by default
 html_theme_options = {
@@ -60,5 +59,5 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-html_permalinks_icon = "<span>ඞ</span>"
+# html_static_path = ['_static']
+# html_permalinks_icon = "<span>ඞ</span>"

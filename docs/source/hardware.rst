@@ -1,10 +1,12 @@
-Hardware.:
-==========
+Hardware
+========
 
-Metal Gear Micro Servo.:
-^^^^^^^^^^^^^^^^^^^^^^^^^
-    Servos werde durch das Senden eines elektrischen Impulses mit variabler Breite oder einer Impulsbreitenmodulation durch die Steuerleitung gesteuert. Hierbei existiert ein minimaler Impuls, ein maximaler Impuls und eine Wiederholungsrate. Die Flexibilität dieser Servo Motoren beträgt 180°. Der Servomotor erwartet alle 20 Millisekunden einen Impuls, dies ist sehr wichtig da wir bei einer Rakete so schnell wie möglich in der Lage sein müssen über die Servoren die Nozzle/Fins zu steuern.
+Micro Servos:
+^^^^^^^^^^^^^
 
+    Servos werden durch das Senden eines elektrischen Impulses mit variabler Breite (Impulsbreitenmodulation) durch eine 
+    Steuerleitung gesteuert. Hierbei existiert ein minimaler Impuls, ein maximaler Impuls und eine Wiederholungsrate. Servomotoren 
+    ermöglichen uns das präzise Steuern unserer Raketen.
 
 .. list-table::
 
@@ -12,14 +14,13 @@ Metal Gear Micro Servo.:
 
      - .. figure:: /image/hardware/hardware2.png
 
+MPU6050 - Gyro:
+^^^^^^^^^^^^^^^
 
-
-
-
-mpu6050 - Gyro.:
-^^^^^^^^^^^^^^^^
-    Der mpu6050 ist ein 6-Achsen-Bewegungserfassungsgerät, welches für geringen Stromverbrauch und hoher Leistung entwickelt wurde. Zudem ist er sehr klein gehalten und ermöglicht uns viel Spielraum beim Einbau des Teils.  Er besteht aus einer 16 – Bit – Analog – Digital – Wandler – Hardware, welche es uns ermöglicht dreidimensionale Bewegungen gleichzeitig zu erfassen welches ein Muss bei der Steuerung unserer Rakete ist.
-
+    Der MPU6050 ist ein Bewegungserfassungsgerät, welches für geringen Stromverbrauch und hohe Leistung entwickelt wurde. 
+    Zudem ist es sehr klein gehalten und ermöglicht uns viel Spielraum beim Einbau. Es besteht aus einer 16-Bit Analog-Digital-Wandler 
+    Hardware, welche es ermöglicht, Beschleunigung und Neigung auf allen drei Achsen gleichzeitig zu erfassen. Diese Rohdaten werden
+    vom Flightcode direkt in den PID-Controller gespeist und dort weiter verarbeitet.
 
 .. list-table::
 
@@ -27,52 +28,36 @@ mpu6050 - Gyro.:
 
      - .. figure:: /image/hardware/hardware4.png
 
+Motoren:
+^^^^^^^^
 
-
-
-
-
-Motoren.:
-^^^^^^^^^
-    Da wir uns entschlossen die Rakete durch Luft anzutreiben benötigten wir dafür motoren. Zum Glück hatten wir einen sich für Drohnen Interessierten in unserer Gruppe, welcher uns die Motoren zur Verfügung stellte. Die Motoren bestanden aus Plastik und wogen zudem nichts was unserem Ideal entsprach.
-
+    Für den Antrieb unserer Rakete verwenden wir Brushless-DC Motoren, welche heutzutage vorallem in RC-Drohnen, Baumaschinen und anderen
+    elektronischen Geräten zum Einsatz kommen. Bei Perseverance und The Injector fiel unsrere Wahl auf 2206 2600KV Motoren, welche aber bei 
+    Endurance gegen leichtere und stärkere 1507 3600KV Motoren getauscht wurden.
 
 .. list-table::
 
-   * - .. figure:: /image/hardware/hardware5.png
+   * - .. figure:: /image/hardware/hardware6.png
 
-     - .. figure:: /image/hardware/hardware6.png
+     - .. figure:: /image/hardware/hardware12.jpg
 
+ESP32-LoRa:
+^^^^^^^^^^^
 
+    Der TTGO Lora32 ist ein ESP32 Board, welches über ein integriertes LoRa Modul und SSD1306 OLED-Display verfügt. Der ESP32 ist ein
+    funktionsreicher, für seine Größe leistungstarker und effizienter Mikrocontroller, weswegen er auch das Gehirn unserer Raketen ist.
+    Auch für unsere Groundstation kommt solch ein Board zum Einsatz, um die reibungslose Kommunikation zwischen Luft und Boden sicherzustellen.
 
-
-
-LoRa32.:
-^^^^^^^^
-    |pic1| Der TTGO Lora32 ist eine ESP32 Board, welches über ein integriertes LoRa module und einen SSD1306 LCD-Display verfügt. Da es sich hierbei um 2 Geräte handelt kann man das eine OnBoard einbauen und das andere in diesem Fall auf der Ground – Station anbauen. Dieses können miteinander kommunizieren und sich Daten hin und - zurückschicken.
-
-.. |pic1| image:: /image/hardware/hardware7.png
+.. image:: /image/hardware/hardware7.png
    :width: 700px
    :height: 520px
    :scale: 100 %
 
-
-ESP32.:
+BMP280:
 ^^^^^^^
-    Ein ESP32 ist ein kostengünstige und mit geringem Leistungsbedarf ausgeführte 32-Bit-Mikrocontrollerfamilie. Diese Mikrocontroller ermöglichen durch ihre Bauweise und die Vernetzung von netzwerkbasierten Aktuatoren und Sensoren. Dadurch dient uns der ESP32 in der Rakete sozusagen als Herzstück, durch welches es und mit der Rakete kommunizieren lässt.
-
-
-.. list-table::
-
-   * - .. figure:: /image/hardware/hardware8.png
-
-     - .. figure:: /image/hardware/hardware9.png
-
-
-
-CUQI GY - BMP280.:
-^^^^^^^^^^^^^^^^^^
-    Das CUQI GY-BMP280 Barometer ermöglicht es uns die Luftfeuchtigkeit als auch die Temperatur auf verschiedenen Höhenspiegelleveln zu messen. Dies soll uns ermöglichen Daten über den Flug der Rakete zu sammeln und daraus später genauere Informationen herauszufinden.
+    
+    Das BMP280 Barometer ermöglicht es uns Temperatur und vorallem Luftdruck genau zu bestimmen. Durch den erfassten Luftdruck wird schließlich
+    die aktuelle Höhe errechnet und im Flightcode mit einbezogen, um immer genaue Kontrolle über die Flughöhe zu haben.
 
 .. list-table::
 

@@ -1,11 +1,11 @@
-Design 1.0 - Perserverance.:
-============================
+Design 1.0 - Perserverance
+==========================
 
-Design 1.0 Überblick.:
-^^^^^^^^^^^^^^^^^^^^^^
+Design 1.0 Überblick:
+^^^^^^^^^^^^^^^^^^^^^
 
-Was ist Perserverance.:
-"""""""""""""""""""""""
+Was ist Perserverance:
+""""""""""""""""""""""
    |pic1| Design 1.0 aka Perserverance war unser erster Prototyp der Rakete. Bei welchem es uns nicht ums Aussehen oder Gestalten der Rakete ging. Wir testeten uns bauten uns langsam immer weiter hinauf. Das Ziel von Perserverance war es uns ein gewisses Grundverständnis für unseren zukünftigen Raketen zu geben. Hierbei Probierten wir verschiedene Möglichkeiten um die Rakete in einen sicheren Start und Haltung zu bringen. Die Rakete Bestand mehreren Modulen siehe {Hyperlink to 3.2} für weitere Details. 
 
 .. |pic1| image:: /image/Perserverance.png
@@ -13,13 +13,11 @@ Was ist Perserverance.:
    :height: 520px
    :scale: 100 %
 
-
-Design 1.0 Struktur.:
-^^^^^^^^^^^^^^^^^^^^^
+Design 1.0 Struktur:
+^^^^^^^^^^^^^^^^^^^^
 
 EPM - Electronic Processing Module.:
 """"""""""""""""""""""""""""""""""""
-
 
    Die Aufgabe des EPM- Electronic Processing Modules war es unser Gyrosensor zu beinhalten und uns konstant Daten über die Lora Kommunikation zu übertragen als auch diese über ein Integriertes Data-Logging zu speichern und später auszuwerten. Der Gyrosensor wurde hierbei in den zwei oben abgebildeten Löchern befestigt. Zudem Zeitpunkt waren keine weiteren Gedanken für dieses Modul gedacht und Kabelführung musste händisch abgesichert werden.
 
@@ -29,12 +27,9 @@ EPM - Electronic Processing Module.:
 
      - .. figure:: /image/Design/Design1.0/epm/EPM2.png
 
-   
-   
+TDM - Thrust Delivery Module:
+"""""""""""""""""""""""""""""
 
-
-TDM - Thrust Delivery Module.:
-""""""""""""""""""""""""""""""
 **VERSION 1.0:**
    
    Die Aufgabe des TDM- Thrust Delivery Modules war es unsere Motoren zu stabilisieren, welche wir für den Start als auch die Haltung in der Luft benötigten. Verwendet wurden dabei 2 Motoren. Einer der Motoren wurde an der Oberseite des ihnen oben gezeigten Bildes angehängt, der andere auf der Unterseite. Damit unsere Rakete nicht außer Kontrolle geraten würde, entschieden wir uns dazu die beiden Motoren in die jeweils entgegengesetzte Richtung zu rotieren, um so einen Ausgleich in Schwungrichtung zu erhalten. 
@@ -44,11 +39,6 @@ TDM - Thrust Delivery Module.:
    * - .. figure:: /image/Design/Design1.0/tdm/version1/TDM1.png
 
      - .. figure:: /image/Design/Design1.0/tdm/version1/TDM2.png
-
-
-
-
-
 
 **VERSION 2.0:**
 
@@ -64,8 +54,6 @@ TDM - Thrust Delivery Module.:
 
      - .. figure:: /image/Design/Design1.0/tdm/version2/TDM4.png
 
-
-
 **VERSION 3.0:**
 
    Version 3 folgte dem Beispiel von Version 2. Die Teile wurden erneut ums minimale geändert diesmal waren nur die 2 Schraubenlöcher außerhalb des TDM davon betroffen. Wie sich herausstellte erwiesen die Schrauben nicht den gewünschten Zusammenhalt. Um nun jedoch nicht wieder auf Version 1 zurückzuweichen wurde hier entschieden durch einfaches Löten der Beiden Teile den Zusammenhalt zu sichern.
@@ -80,10 +68,8 @@ TDM - Thrust Delivery Module.:
 
      - .. figure:: /image/Design/Design1.0/tdm/version3/TDM4.png
 
-
-
-TIM - Thrust Intake Module.:
-""""""""""""""""""""""""""""
+TIM - Thrust Intake Module:
+"""""""""""""""""""""""""""
 
 **VERSION 1.0:**
 
@@ -95,11 +81,6 @@ TIM - Thrust Intake Module.:
 
      - .. figure:: /image/Design/Design1.0/tim/version1/TIM2.png
 
-
-
-
-
-
 **VERSION 2.0:**
 
    Version 2.0 des TMI war mit viel größeren Öffnungen ausgestattet. Unsere Ergebnisse waren schon um ein einiges besser, jedoch konnten wir trotz größeren Öffnungen nicht das gewünschte Ziel erreichen, welches wir uns vorgenommen hatten. Wir mussten improvisieren um Testungen besser durchzuführen und nahmen das EPM für weitere Tests hinunter, um ideale Lufteinnahmen zu erreichen.
@@ -109,9 +90,6 @@ TIM - Thrust Intake Module.:
    * - .. figure:: /image/Design/Design1.0/tim/version2/TIM1.png
 
      - .. figure:: /image/Design/Design1.0/tim/version2/TIM2.png
-   
-
-
 
 **VERSION 3.0:**
 
@@ -122,22 +100,9 @@ TIM - Thrust Intake Module.:
    * - .. figure:: /image/Design/Design1.0/tim/version3/TIM1.png
 
      - .. figure:: /image/Design/Design1.0/tim/version3/TIM2.png
-   
 
-
-
-
-
-
-
-
-
-
-
-
-
-TVC - Thrust Vectoring Module.:
-"""""""""""""""""""""""""""""""
+TVC - Thrust Vectoring Module:
+""""""""""""""""""""""""""""""
 
 **VERSION 1.0:**
 
@@ -151,7 +116,6 @@ TVC - Thrust Vectoring Module.:
 
      - .. figure:: /image/Design/Design1.0/tvc/version1/TVC2.png
 
-
 **Inner Ring**
 
 .. list-table::
@@ -160,7 +124,6 @@ TVC - Thrust Vectoring Module.:
 
      - .. figure:: /image/Design/Design1.0/tvc/version1/TVC4.png
 
-
 **Nozzle**
 
 .. list-table::
@@ -168,9 +131,6 @@ TVC - Thrust Vectoring Module.:
    * - .. figure:: /image/Design/Design1.0/tvc/version1/TVC5.png
 
      - .. figure:: /image/Design/Design1.0/tvc/version1/TVC6.png
-
-
-
 
 **VERSION 2.0:**
 
@@ -184,7 +144,6 @@ TVC - Thrust Vectoring Module.:
    
      - .. figure:: /image/Design/Design1.0/tvc/version2/TVC2.png
 
-
 **Main Part**
 
 .. list-table::
@@ -193,12 +152,7 @@ TVC - Thrust Vectoring Module.:
 
      - .. figure:: /image/Design/Design1.0/tvc/version2/TVC4.png
 
-
-
-
-
-Design 1.0 Zusammenspiel.:
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Design 1.0 Zusammenspiel:
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Zusammengefasst waren die Ergebnisse von Perserverance als erste Rakete erstaunlich gut. Das alleinige Losfliegen beim allerersten Design war überraschend. Jedoch fehlte es der Rakete an Kabelmanagement Möglichkeiten und Air Flow was der Rakete im weiteren Verlauf des Projekts nicht fehlen durfte. Wodurch diese durch das Design 2.0 ersetzt wurde.
-

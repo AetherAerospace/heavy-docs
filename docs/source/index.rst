@@ -1,12 +1,8 @@
 .. image:: /image/logoNewJapaneseText.png
-   :width: 800px
-   :height: 780px
-   :scale: 100 %
+    :scale: 100%
 
 **Aether Aerospace Engineering's documentation!**
 =================================================
-
-
 
 Project Information.::
 
@@ -26,7 +22,6 @@ Project Information.::
       Project Supervisor
             "Prof. Mikl Peter"
 
-
 Inhaltsverzeichnis
 ^^^^^^^^^^^^^^^^^^
 
@@ -37,18 +32,13 @@ Inhaltsverzeichnis
 
    projektplan
    kommunikation
-   design
+   design1
    design2
    design3
    software
-   github
    hardware
-   power
    flowchart
    resumee
    ausblick
    literaturverzeichnis
    license
-   blender
-
-

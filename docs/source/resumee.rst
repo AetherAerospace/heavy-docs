@@ -1,28 +1,16 @@
-Resumme.:
-=========
+Resümee
+=======
 
-Was ist gut gelaufen.:
-^^^^^^^^^^^^^^^^^^^^^^
+Was ist gut gelaufen:
+^^^^^^^^^^^^^^^^^^^^^
 
-Positiv::
+      - Kommunikation
+      - Zusammenarbeit
+      - Zeitmanagement
+      - Motivation
 
-      print """
-            -	Kommunikation 
-            -	Zusammenarbeit
-            -	Zeit management
-            -	Aufrechterhaltung der Motivation für das Projekt
-            """
-
-
-
-Wo gab es Problem.:
+Wo gab es Probleme:
 ^^^^^^^^^^^^^^^^^^^
 
-Negativ::
-
-      print """
-            -	Arbeitsaufwand einschätzen
-            -	Zeitgerechte Fertigstellung der Arbeitspakete
-            """
-
-
+      - Arbeitsaufwand einschätzen
+      - Teilweise Zeitmanagement

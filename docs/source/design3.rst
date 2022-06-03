@@ -1,17 +1,18 @@
-Design 3.0 - Codename:
+Design 3.0 - Endurance
 ======================
 
 Design 3.0 Überblick:
 ^^^^^^^^^^^^^^^^^^^^^
 
-Was ist Codename:
-"""""""""""""""""
+Was ist Endurance:
+""""""""""""""""""
     In der dritten Ausführung unserer Rakete wurde alles bisher erlernte aus den 
-    vorherigen Versionen mit einbezogen und vorallem auf eines geachtet: |br|Gewicht|br|
+    vorherigen Versionen mit einbezogen und vorallem auf eines geachtet: ***Gewicht***
     Sowohl Perseverance und THe Injector waren eindeutig zu schwer, um einen stabilen Flug
     zu erzielen, oder überhaupt abzuheben. Also war der erste Schritt die Gewichsreduzierung
     aller Designs. So wurde zum Beispiel eine maximale Wanddicke von 1.2mm festgelegt, welche
-    über die gesamte Außenhülle konstant ist.|br|
+    über die gesamte Außenhülle konstant ist.
+
     Einige der einzelenen Sections wurden von The Injector übernommen und überarbeitet, um weiter
     Gewicht zu sparen.
 
@@ -22,7 +23,8 @@ TVC - Thrust Vector Control:
 """"""""""""""""""""""""""""
     Die unterste Section ist natürlich der eigentlich wichtigste Teil der Rakete. Hier findet das
     Thrust Vectoring statt, welches den Luftstrom unserer zwei Motoren lenkt, um die Rakete stabil
-    und aufrecht zu halten.|br|
+    und aufrecht zu halten.
+
     Hier kommt das bewährte System von The Injector zum Einsatz, welches noch ein wenig überarbeitet
     wurde, um weiter Gewicht einzusparen. Des weiteren wurde ein Seal Ring entworfen, welcher in flexiblem
     Material gefertigt wird, und die Nozzle fließend mit der Außenhülle verbindet. So wird sichergestellt das
@@ -94,7 +96,8 @@ ES - Extender Section:
 TS - Thrust Section:
 """"""""""""""""""""
     Die Thrust Section haust unseren neuen Powertrain, welcher aus zwei neuen, kleineren und leichteren Motoren besteht. Der
-    Powertrain wurde vorallem aus Gewichtsgründen auf diese neuen Motoren umgebaut.|br|
+    Powertrain wurde vorallem aus Gewichtsgründen auf diese neuen Motoren umgebaut.
+
     Das Section Design ist wiederum sehr vergleichbar mit The Injector und beinhaltet nur die neuen Anpassungen für Gewichtsreduktion
     und die Lochabstände für die neuen Motoren.
 
