@@ -1,5 +1,6 @@
 .. image:: /image/logoNewJapaneseText.png
-    :scale: 100%
+   :scale: 65%
+   :align: center
 
 **Aether Aerospace Engineering**
 ================================
